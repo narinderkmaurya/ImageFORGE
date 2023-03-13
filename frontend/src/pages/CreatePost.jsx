@@ -30,7 +30,7 @@ const CreatePost = () => {
       try {
         setGeneratingImg(true);
         const response = await fetch(
-          "https://imageforge-nbmn.onrender.com/api/v1/dalle",
+          "http://imageforge-nbmn.onrender.com/api/v1/dalle",
           {
             method: "POST",
             headers: {
