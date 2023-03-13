@@ -61,7 +61,7 @@ const CreatePost = () => {
       setLoading(true);
       try {
         const response = await fetch(
-          "http://localhost:8080/api/v1/post",
+          "https://imageforge-nbmn.onrender.com/api/v1/post",
           {
             method: "POST",
             headers: {
