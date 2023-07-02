@@ -13,7 +13,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className="flex justify-between  body items-center mx-auto px-8 py-4  text-white w-full">
+    <div className="flex justify-between sm:bg-transparent body items-center mx-auto px-8 py-4  text-white w-full">
       <Link to="/">
         <img
           src={logo}
@@ -27,14 +27,17 @@ const Navbar = () => {
         <li  className="sm:hover:animate-pulse sm:transition-all sm:hover:text-gray-300 sm:hover:scale-110 cursor-pointer text-xl hover:border-b-2 bg-purple- border-purple-400 ">
           Home
         </li></Link>
+       
         <li className="sm:hover:animate-pulse sm:transition-all sm:hover:text-gray-300 sm:hover:scale-110 cursor-pointer text-xl hover:border-b-2 bg-purple- border-purple-400 ">
-          About
-        </li>
-        <li className="sm:hover:animate-pulse sm:transition-all sm:hover:text-gray-300 sm:hover:scale-110 cursor-pointer text-xl hover:border-b-2 bg-purple- border-purple-400 ">
-          Contact
+        <Link to='/contact'>
+           Contact
+            </Link>
         </li>
         <li className="flex gap-2 items-center bg-white/10 hover:bg-white/40 transition-all cursor-pointer hover:scale-110 p-4 rounded-lg">
-          <span>Github</span>
+          <span>
+            <Link to='https://github.com/narinderkmaurya/ImageFORGE' target="_blank">
+            Github
+            </Link></span>
           <VscGithubInverted />
         </li>
       </ul>
@@ -58,9 +61,9 @@ const Navbar = () => {
           </Link>
         </div>
         <li className="p-4 text-white cursor-pointer  ">Home</li>
-        <li className="p-4 text-white cursor-pointer  ">About</li>
+       
 
-        <li className="p-4 text-white cursor-pointer  ">Contact</li>
+        <li className="p-4 text-white cursor-pointer  "> <Link to='https://github.com/narinderkmaurya/ImageFORGE' target="_blank">Contact</Link>     </li>
         <li className="p-4  cursor-pointer flex items-center gap-2 bg-transparent/30">
           <span>Github</span>
           <VscGithubInverted />

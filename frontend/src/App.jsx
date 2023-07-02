@@ -6,12 +6,14 @@ import Design from './components/Design';
 import Navbar from './components/Navbar';
 
 import { Home, CreatePost } from './pages';
+import Contact from './pages/Contact';
+import Footer from './components/Footer';
 const App = () => {
   return (
     
        <BrowserRouter>
     
-    <main >
+    <main className='lg:mx-24'>
     <Design/>
       <Navbar/>
      
@@ -19,9 +21,10 @@ const App = () => {
         <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/create-post" element={<CreatePost />} />
+        <Route path="/contact" element={<Contact />} />
       </Routes>
       </div>
-      
+      <Footer/>
     </main>
   </BrowserRouter>
     

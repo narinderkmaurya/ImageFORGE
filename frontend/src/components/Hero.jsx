@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 
 const hero = () => {
   return (
-    <div className="text-white">
+    <div className="text-white hero">
       
       <div className=" pt-[2vh] sm:pt-[10vh] md:pt-[4vh] w-full mx-auto px-2  flex-col text-center  lg:h-1/2 items-center  font-bold text-3xl  md:text-5xl lg:text-8xl body">
         Where{" "}
@@ -47,7 +47,7 @@ const hero = () => {
               loop
             />
           </p>
-          <span className="flex lg:text-2xl items-center  lg:animate-bounce transition-all  p-6 md:p-6 lg:p-12 gap-4">
+          <span className="flex lg:text-2xl items-center  lg:animate-bounce transition-all  p-6 md:p-6 lg:p-16 gap-4">
             {" "}
             <BsChevronDoubleDown size={30} />
           </span>

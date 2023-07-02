@@ -62,7 +62,7 @@ const Home = () => {
   return (
     <>
       <Hero/>
-      <section className="max-w-7xl lg:bg-gradient-to-b lg:from-black to lg:bg-zinc-900 lg:px-6 lg:py-6 lg:rounded-3xl mx-auto ">
+      <section className="max-w-7xl bg-transparent/10  lg:px-6 lg:py-6 lg:rounded-3xl mx-auto ">
       <div>
         <h1 className="font-extrabold text-center  font-manrope text-white text-[32px] md:text-5xl lg:text-7xl">Most Buzzed Posts</h1>
         <p className="mt-2 text-center md:max-w-full md:text-xl  text-pink-500 text-[14px] lg:text-xl max-w-[500px] lg:max-w-full">Be transported to a world of wonder and magic with a breathtaking selection of images created by the visionary DALL-E AI.</p>
@@ -91,7 +91,7 @@ const Home = () => {
                 Results Shown For <span className="text-gray-300">{searchText}</span>:
               </h2>
             )}
-            <div className="grid lg:grid-cols-3 sm:grid-cols-3 xs:grid-cols-2 grid-cols-1 gap-3">
+            <div className="grid lg:grid-cols-3 sm:grid-cols-3 xs:grid-cols-2  grid-cols-1 gap-3">
               {searchText ? (
                 <RenderCards
                   data={searchedResults}
@@ -108,7 +108,7 @@ const Home = () => {
         )}
       </div>
     </section>
-    <ScrollToTop smooth color='black' width='40' viewBox='0 0 256 256' style={{borderRadius:'20px',background:"white"}} />
+    <ScrollToTop smooth color='black' width='40' height='20' viewBox='0 0 256 256' style={{borderRadius:'20px',background:"white", alignItems:"center", placeItems:"center"}} />
     </>
   )
 }

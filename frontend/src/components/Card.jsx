@@ -4,7 +4,7 @@ import { download } from '../assets';
 import { downloadImage } from '../utils';
 
 const Card = ({ _id, name, prompt, photo }) => (
-  <div className="rounded-xl group relative  shadow-2xl shadow-transparent/90 border-gray-900 border-2 lg:hover:shadow-slate-900/70 lg:hover:shadow-lg card">
+  <div className="rounded-xl group relative  shadow-2xl shadow-black   lg:hover:shadow-white/30 transition-all duration-75 lg:hover:shadow-2xl card">
     <img
       className="w-full h-auto object-cover rounded-xl"
       src={photo}

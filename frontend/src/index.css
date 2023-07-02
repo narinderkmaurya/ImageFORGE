@@ -13,7 +13,11 @@
     }
 }
 body{
-    background-color: #000000;
+    background-repeat: no-repeat;
+    background-color: black;
+   
+   
+  
 }
 .prompt::-webkit-scrollbar {
     width: 5px;

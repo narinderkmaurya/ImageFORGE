@@ -85,7 +85,7 @@ const CreatePost = () => {
   };
 
   return (
-    <section className="max-w-8xl     sm:bg-gradient-to-t from-zinc-900 to-black  sm:p-4  rounded-3xl mx-auto">
+    <section className="max-w-8xl  bg-transparent/10   sm:p-4  rounded-3xl mx-auto">
       <div>
         <h1 className=" text-transparent text-center bg-clip-text bg-gradient-to-br lg:text-9xl md:text-8xl from-pink-400  to-red-400  font-bold text-5xl">
           Create Prompt
@@ -159,14 +159,13 @@ const CreatePost = () => {
 
         <div className="mt-10 items-center justify-center flex-col flex gap-5 ">
           <p className="mt-2 text-center font-semibold text-pink-700  lg:font-manrope md:text-white text-md md:text-xl">
-            "Share your final image with others in the community once you've
-            finished perfecting it to your liking."
+            On your bottom left,you can use our bot to enhance your post for making a perfect picture with more powered prompt.
           </p>
           <button
             type="submit"
             className=" lg:text-white text-white items bg-pink-700 font-manrope rounded-md text-2xl w-full sm:w-auto px-6   py-2.5 lg:bg-transparent/10 lg:hover:bg-transparent/40 transition-all hover:scale-110  lg:px-4 lg:text-2xl text-center "
           >
-            {loading ? "Sharing Your Post" : "Share with the Community"}
+            {loading ? "Please Wait" : "Share with the Community"}
           </button>
         </div>
       </form>
