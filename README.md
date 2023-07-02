@@ -38,7 +38,15 @@ We welcome contributions from fellow developers. Feel free to fork the repo and 
 
 ## Screenshots
 
-**_Insert project screenshots here_**
+![Screenshot (120)](https://github.com/narinderkmaurya/ImageFORGE/assets/96182171/bab54aac-f39f-47f5-9b13-7c8a62828251)
+![Screenshot (124)](https://github.com/narinderkmaurya/ImageFORGE/assets/96182171/f7f091f3-9621-4e4a-9312-1629c943f5fb)
+![Screenshot (125)](https://github.com/narinderkmaurya/ImageFORGE/assets/96182171/dc8fe671-48f3-4b90-a210-26551220adf0)
+![Screenshot (126)](https://github.com/narinderkmaurya/ImageFORGE/assets/96182171/df504645-b88a-4ffe-b1c2-d7a6d5d254f6)
+![Screenshot (127)](https://github.com/narinderkmaurya/ImageFORGE/assets/96182171/f9e046b9-63bc-439b-ad29-6a9020adb8d1)
+![Screenshot (128)](https://github.com/narinderkmaurya/ImageFORGE/assets/96182171/3fae6527-f7f7-446a-ae11-444e747aab5e)
+![Screenshot (129)](https://github.com/narinderkmaurya/ImageFORGE/assets/96182171/b9f723ab-5c4a-423c-831d-7906df77812c)
+
+
 
 ## Contact Information
 
