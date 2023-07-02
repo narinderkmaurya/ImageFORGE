@@ -1,4 +1,4 @@
-# **Image Forge - AI Image Generator **  
+# Image Forge - AI Image Generator 
 
 ## Project description
 Image Forge is a MERN (MongoDB, Express.js, React.js, Node.js) stack application powered by AI to generate unique and engaging images. By simply inputting prompts, users can create captivating AI art. Additionally, the application features an interactive chatbot designed to enhance a user's prompt, making the creation of these AI images a smooth and intuitive experience.
