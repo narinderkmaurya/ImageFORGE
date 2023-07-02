@@ -1,5 +1,5 @@
 import React from "react";
-
+import Airform from "react-airform";
 import {LuGithub, LuTwitter,LuLinkedin,LuInstagram} from 'react-icons/lu'
 import { Link } from "react-router-dom";
 const Contact = () => {
@@ -54,40 +54,40 @@ const Contact = () => {
               
             </div>
           </div>
-          <form
-            novalidate=""
+          <Airform email="feedback.ma7i2@8shield.net" method="POST"
             className="flex flex-col py-6 space-y-6 md:py-2 md:px-6"
           >
-            <label className="block lg:items-center lg:gap-x-4 lg:flex">
+            <label for="name" className="block lg:items-center lg:gap-x-4 lg:flex">
               <span className="mb-1    text-transparent  bg-clip-text bg-gradient-to-br from-pink-400  to-red-400"> Name</span>
               <input
                 type="text"
-                placeholder="John Doe"
+                placeholder="John Doe" id="name"
+                name="User Name" required
                 className="block lg:p-4 w-full bg-white/10 rounded-md shadow-sm focus:ring focus:ri focus:ri "
               />
             </label>
-            <label className="block lg:items-center lg:gap-x-5 lg:flex">
+            <label for="mail" className="block  lg:items-center lg:gap-x-5 lg:flex">
               <span className="mb-1 text-transparent  bg-clip-text bg-gradient-to-br from-pink-400  to-red-400">Email </span>
               <input
-                type="email"
-                placeholder="johndoe@pm.me"
+                type="email" name="User Email" id="mail"
+                placeholder="johndoe@pm.me" required
                 className="block lg:p-4 w-full bg-white/10 rounded-md shadow-sm focus:ring focus:ri focus:ri "
               />
             </label>
-            <label className="block lg:items-center lg:gap-x-4 lg:flex">
+            <label for="message"  className="block lg:items-center lg:gap-x-4 lg:flex">
               <span className="mb-1 text-transparent  bg-clip-text bg-gradient-to-br from-pink-400  to-red-400">Message</span>
-              <textarea
+              <textarea required id="message" name="message"
                 rows="3"
                 className="block w-full bg-white/10   rounded-md focus:ring focus:ri focus:ri "
               ></textarea>
             </label>
             <button
-              type="button"
+              type="submit" value="send"
               className="self-center px-8 py-3 text-lg rounded focus:ring ring-pink-900  hover:ring focus:ri  focus:ri hover:ri"
             >
               Submit
             </button>
-          </form>
+          </Airform>
         </div>
       </section>
     </>
