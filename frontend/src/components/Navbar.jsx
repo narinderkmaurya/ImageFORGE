@@ -63,8 +63,9 @@ const Navbar = () => {
         <li className="p-4 text-white cursor-pointer  ">Home</li>
        
 
-        <li className="p-4 text-white cursor-pointer  "> <Link to='https://github.com/narinderkmaurya/ImageFORGE' target="_blank">Contact</Link>     </li>
-        <li className="p-4  cursor-pointer flex items-center gap-2 bg-transparent/30">
+        <li className="p-4 text-white cursor-pointer  "> <Link to="/contact"> Contact</Link>  </li>
+        <li className="p-4  cursor-pointer flex items-center lg:gap-2 bg-transparent/30">
+        <Link to='https://github.com/narinderkmaurya/ImageFORGE' target="_blank"></Link>   
           <span>Github</span>
           <VscGithubInverted />
         </li>

@@ -85,7 +85,7 @@ const CreatePost = () => {
   };
 
   return (
-    <section className="max-w-8xl  bg-transparent/10   sm:p-4  rounded-3xl mx-auto">
+    <section className="max-w-8xl  bg-white/10   sm:p-4  rounded-3xl mx-auto">
       <div>
         <h1 className=" text-transparent text-center bg-clip-text bg-gradient-to-br lg:text-9xl md:text-8xl from-pink-400  to-red-400  font-bold text-5xl">
           Create Prompt
