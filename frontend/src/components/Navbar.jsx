@@ -5,6 +5,7 @@ import { logo } from "../assets";
 import { VscGithubInverted } from "react-icons/vsc";
 import { HiMenuAlt3 } from "react-icons/hi";
 import { IoIosCloseCircleOutline } from "react-icons/io";
+import {BiSolidPizza} from 'react-icons/bi'
 const Navbar = () => {
   const [nav, setNav] = useState(false);
 
@@ -33,12 +34,19 @@ const Navbar = () => {
            Contact
             </Link>
         </li>
-        <li className="flex gap-2 items-center bg-white/10 hover:bg-white/40 transition-all cursor-pointer hover:scale-110 p-4 rounded-lg">
+        <li className="flex  items-center  hover:bg-white/40  transition-all cursor-pointer hover:scale-110  rounded-full">
           <span>
             <Link to='https://github.com/narinderkmaurya/ImageFORGE' target="_blank">
-            Github
+            <VscGithubInverted size={30} />
             </Link></span>
-          <VscGithubInverted />
+        
+        </li>
+        <li className="flex gap-2 items-center bg-white/10 hover:bg-white/40 transition-all cursor-pointer hover:scale-110 p-4 rounded-lg">
+          <span>
+            <Link to='https://www.buymeacoffee.com/narinderkmaurya' target="_blank">
+            Support Me
+            </Link></span>
+          <BiSolidPizza />
         </li>
       </ul>
       <div onClick={handleNav} className="block md:hidden">
@@ -68,6 +76,11 @@ const Navbar = () => {
         <Link to='https://github.com/narinderkmaurya/ImageFORGE' target="_blank"></Link>   
           <span className="pr-2">Github</span>
           <VscGithubInverted />
+        </li>
+        <li className="p-4  cursor-pointer flex items-center lg:gap-2 bg-transparent/30">
+        <Link to='https://www.buymeacoffee.com/narinderkmaurya' target="_blank"></Link>   
+          <span className="pr-2">Support Me</span>
+          <BiSolidPizza/>
         </li>
       </ul>
     </div>
