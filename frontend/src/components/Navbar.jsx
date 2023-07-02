@@ -47,7 +47,7 @@ const Navbar = () => {
       <ul
         className={
           nav
-            ? "fixed left-0 top-0 w-[70%] h-full border-r-2 border-b-2 border-gray-900 bg-gradient-to-b from-black to-zinc-900   transition-all ease-in-out duration-500"
+            ? "fixed left-0 top-0 z-2 w-[70%] h-full border-r-2   border-b-2 border-gray-900 bg-gradient-to-b from-black to-zinc-900   transition-all ease-in-out duration-500"
             : "ease-in-out duration-500 fixed left-[-100%]"
         }
       >
@@ -66,7 +66,7 @@ const Navbar = () => {
         <li className="p-4 text-white cursor-pointer  "> <Link to="/contact"> Contact</Link>  </li>
         <li className="p-4  cursor-pointer flex items-center lg:gap-2 bg-transparent/30">
         <Link to='https://github.com/narinderkmaurya/ImageFORGE' target="_blank"></Link>   
-          <span>Github</span>
+          <span className="pr-2">Github</span>
           <VscGithubInverted />
         </li>
       </ul>

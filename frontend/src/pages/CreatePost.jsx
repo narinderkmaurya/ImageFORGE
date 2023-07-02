@@ -85,13 +85,13 @@ const CreatePost = () => {
   };
 
   return (
-    <section className="max-w-8xl  bg-white/10   sm:p-4  rounded-3xl mx-auto">
+    <section className="max-w-8xl  bg-white/10   p-4  rounded-3xl mx-auto">
       <div>
         <h1 className=" text-transparent text-center bg-clip-text bg-gradient-to-br lg:text-9xl md:text-8xl from-pink-400  to-red-400  font-bold text-5xl">
           Create Prompt
         </h1>
       </div>
-      <p className="mt-2 md:text-2xl md:text-center text-white font-manrope lg:text-2xl">
+      <p className="mt-2 md:text-2xl text-center text-white font-manrope lg:text-2xl">
         "Produce a one-of-a-kind graphic utilizing the innovative features of
         DALL-E AI and showcase it to the community."
       </p>
@@ -124,7 +124,7 @@ const CreatePost = () => {
             />
           </div>
 
-          <div className="relative bg-transparent/10 mx-auto hover:scale-110 transition-all border border-white text-gray-900 text-sm rounded-lg focus:ring-pink-400 focus:border-pink-400 lg:w-96 h-64 w-72 p-3 lg:h-64 flex justify-center items-center">
+          <div className="relative  bg-transparent/10 mx-auto hover:scale-110 transition-all border border-white text-gray-900 text-sm rounded-lg focus:ring-pink-400 focus:border-pink-400 lg:w-[610px] h-64 w-80 p-3 lg:h-[400px] flex justify-center items-center">
             {form.photo ? (
               <img
                 src={form.photo}
@@ -135,7 +135,7 @@ const CreatePost = () => {
               <img
                 src={preview}
                 alt="preview"
-                className="w-9/12 h-9/12 object-contain opacity-40"
+                className="w-9/12  h-9/12 object-contain opacity-40"
               />
             )}
 
