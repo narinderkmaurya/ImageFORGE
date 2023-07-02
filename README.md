@@ -50,10 +50,8 @@ We welcome contributions from fellow developers. Feel free to fork the repo and 
 
 ## Contact Information
 
-Please feel free to reach out for any questions, feedback or collaboration opportunities. **_Insert your contact information here_**
+Please feel free to reach out for any questions, feedback or collaboration opportunities. **📨- narinder06@pm.me**
 
-## License
-**_Specify the license you're using, or if there's no license, state that as well_**
 
 Enjoy creating with Image Forge!
 
