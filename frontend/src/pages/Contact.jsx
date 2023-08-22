@@ -54,7 +54,7 @@ const Contact = () => {
               
             </div>
           </div>
-          <Airform email="feedback.ma7i2@8shield.net" method="POST"
+          <Airform email="mauryanarinder2002@gmail.com" method="POST"
             className="flex flex-col py-6 space-y-8 md:py-2 md:px-6"
           >
             <label for="name" className="block  lg:items-center lg:gap-x-4 lg:flex">
